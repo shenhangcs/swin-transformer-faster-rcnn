@@ -1,0 +1,29 @@
+1. First use Baidu web disk download logs file, below is the download link, and then replace the logs file in Github.  
+链接（link)：https://pan.baidu.com/s/19bJeZ5MX9U2UZi_KNWpNlw 
+提取码(pass word)：2j84 
+
+2. if  you want to train the model,please follow the below steps:  
+
+step 1:down the dataset from below link:
+链接(link)：https://pan.baidu.com/s/1r8KpIg6hV0hKMh-cqsbNhg 
+提取码(password)：kdn6 
+
+step 2: Put the annnotation files in the Annotation under VOC2007 folder under VOCdevkit folder. 
+           Place the images in JPEGImages under VOC2007 folder under VOCdevkit folder
+
+step3:  Before training, voc2faster-rcnn. py file was used to generate the corresponding txt
+
+step4 : Run voc_annotation.py from the root directory,The corresponding 2007 train.txt will be generated
+
+step5: Run train.py to begin training
+
+3.  run demo to exhibit effect
+
+4. mAp（performance):
+    1.run get_dr_tex. py Generates the txt file corresponding to the prediction result
+     2.run the get_gt_txt.py file to generate the TXT corresponding to the real frame
+     3.Run the get_map.py file to get the mAp values
+           
+
+ 
+
